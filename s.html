@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify -- Web Player : Music for everyone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="s.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option" >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+           
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option" >
+                        <img src="library_icon.png" alt="lib" height="20px" width="20px">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="box" >
+                    <p class="title">Create your first playlist</p>
+                    <p class="text">It's easy, you'll love it</p>
+                    <button class="b1">Create playlist</button>
+                </div>
+
+                <div class="box" >
+                    <p class="title">Let's find some podcast to follow</p>
+                    <p class="text">We'll keep you updated on new episodes</p>
+                    <button class="b1">Browse podcasts </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="sticky">
+                <div class="arrow">
+                    <img src="backward_icon.png" alt="#">
+                    <img class="hide" src="forward_icon.png" alt="#">
+                </div>
+
+                <div class="r">
+                    <button class="hide"  >Upgrade</button>
+                    <button class="b1" ><i class="fa-regular fa-circle-down"> </i>Install App</button>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+
+            <div class="cards">
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="card1img.jpeg" alt="#" height="240px" width="200px">
+                        <p class="title"><b>Top 50-Global</b></p>
+                        <p class="detail">Your daily update of the 
+                            <br>most played tracks right...</p>
+                    </div>
+                </div>
+
+                <h2>Spotify original &amp; exclusive podcasts</h2>
+               
+                <div class="card-container">
+                    <div class="card">
+                        <img src="card2img.jpeg" alt="#" height="240px" width="200px">
+                        <p class="title"><b>Top 50-Global</b></p>
+                        <p class="detail">Your daily update of the 
+                            <br>most played tracks right...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="card3img.jpeg" alt="#" height="240px" width="200px">
+                        <p class="title"><b>Top 50-Global</b></p>
+                        <p class="detail">Your daily update of the 
+                            <br>most played tracks right...</p>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="card4img.jpeg" alt="#" height="240px" width="200px">
+                        <p class="title"><b>Top 50-Global</b></p>
+                        <p class="detail">Your daily update of the 
+                            <br>most played tracks right...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card8img.png" alt="#" height="240px" width="200px">
+                        <p class="title"><b>Top 50-Global</b></p>
+                        <p class="detail">Your daily update of the 
+                            <br>most played tracks right...</p>
+                    </div>
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="card5img.jpeg" alt="#" height="240px" width="200px">
+                        <p class="title"><b>Top 50-Global</b></p>
+                        <p class="detail">Your daily update of the 
+                            <br>most played tracks right...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card6img.jpeg" alt="#" height="240px" width="200px">
+                        <p class="title"><b>Top 50-Global</b></p>
+                        <p class="detail">Your daily update of the 
+                            <br>most played tracks right...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="last">
+
+            </div>
+            
+        </div>
+
+        <div class="music-player">
+            <div class="l">
+                <img src="side.png" height="100px" width="100px">
+                <p>Daylight</p>
+                <i class="fa-regular fa-heart"></i>
+              
+
+            </div>
+            <div class="c">
+                <div class="player-control">
+                    <img src="player_icon1.png" class="player1">
+                    <img src="player_icon2.png" class="player1">
+                    <img src="player_icon3.png" class="player1">
+                    <img src="player_icon4.png" class="player1">
+                    <img src="player_icon5.png" class="player1">
+                    
+                </div>
+                <div class="player">
+                    <p>01:69</p>
+                    <input type="range" min="0" max="100" step="2">
+                    <p>03:24</p>
+                </div>
+              
+            </div>
+            <div class="r">
+                <i class="fa-solid fa-sliders"></i>
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-wave-square"></i>
+                <i class="fa-solid fa-volume-low"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <i class="fa-solid fa-headphones"></i>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
