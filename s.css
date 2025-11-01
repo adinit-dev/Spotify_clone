@@ -1,0 +1,185 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+
+}
+
+.sidebar{
+    background-color: rgba(128, 97, 97, 0.022);
+    width: 300px;
+    border-radius: 1rem;
+    
+}
+.main-content{
+    background-color:  rgba(128, 97, 97, 0.086);
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+.music-player{
+    
+    background-color: black;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    background-color: rgba(128, 128, 128, 0.092);
+    padding: .75rem;
+    margin: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+  
+}
+.nav-option i{
+    font-size: 1.25rem;
+}
+
+.library{
+    background-color: rgba(128, 128, 128, 0.092);
+    border-radius: 1rem;
+    height: 100vh;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+div .title{
+    font-weight: 700;
+    opacity: .75;
+}
+div .text{
+    opacity: .50;
+}
+
+div .b1{
+    border: none;
+    border-radius: .8rem;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #ffffff61
+}
+div .sticky{
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    background-color: #000;
+}
+
+.box{
+    background-color: rgba(128, 128, 128, 0.152);
+    padding: 1rem;
+    margin: 10px;
+    border-radius: .5rem;
+}
+
+.main-content{
+    margin: 10px;
+}
+.r{
+    margin: 10px;
+    padding: 10px;
+}
+.r .hide{
+    border: none;
+    border-radius: .8rem;
+    padding: 10px;
+}
+.arrow{
+    padding: 20px;
+}
+
+.card{
+    background-color: rgba(128, 128, 128, 0.178);
+    width: 200px;
+    padding: 20px;
+    border-radius: 0.5rem;
+    margin: 20px;
+}
+
+
+.card img{
+    border: none;
+    border-radius: 0.5rem;
+}
+
+@media(max-width: 1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.last{
+    height: 100px;
+    
+}
+.player1{
+    height: 30px;
+    width: 30px;
+    padding-left: 5rem;
+    
+
+}
+.l{
+    width: 25%;
+    display: flex;
+}
+.c{
+    width: 50%;
+    
+}
+.r{
+    width: 25%;
+}
+.player{
+    display: flex;
+    align-self: center;
+    margin-left: 220px;
+    
+}
+.l p {
+    align-self: center;
+    margin-left: 8px;
+}
+.l i{
+    position: relative;
+    top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.r i{
+    margin-left: 30px;
+    font-size: 20px;
+}
